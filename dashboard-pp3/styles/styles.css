@@ -1,0 +1,32 @@
+body {
+  min-height: 100vh;
+  text-align: center;
+}
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 50px;
+  padding-block-start: 0;
+}
+
+.date-display,
+.time-display {
+  display: block;
+}
+.date-display {
+  font-size: 3rem;
+}
+.time-display {
+  font-size: 2rem;
+}
+
+.mount {
+  border: 5px solid #000;
+  border-radius: 15px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
